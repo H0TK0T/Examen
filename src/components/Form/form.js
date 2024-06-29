@@ -167,7 +167,7 @@ const MainForm = () => {
             onBlur={handleBlur}
             placeholder="+7(900)-000-00-00"
             required
-            maxLength={15}
+            maxLength={16}
           />
           <label htmlFor="phoneNumber" className="label sr-only">Номер телефона</label>
           {phoneNumberError && <p className="error">{phoneNumberError}</p>}
